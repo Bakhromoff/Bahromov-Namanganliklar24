@@ -19,36 +19,101 @@ body{
 .container{
   width: 100%;
   min-width: 1240px;
-padding-left: 40px;
-padding-right: 40px;
-margin-left: auto;
-margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.header-container{
+
+.site-header-top{
+background-color: #F6F6F6;;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.site-header-logo{
+  padding: 8px 6px;
+  border-radius: 7px;
+  background-color: #fff;
+  display: flex;
+  margin-right: 35px;
+}
+.site-header-logo:hover{
+  opacity: 0.8;
+}
+.site-header-logo:active{
+  opacity: 0.6;
+}
+.logo-img{
+  margin: 0;
+}
+.site-header-container{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
 }
-.site-header{
+
+.global-currency{
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
-}
-.sitenav-list{
-  display: flex;
-  align-items: center;
-}
-.sitenav-item{
   list-style: none;
+  margin-right: auto;
 }
-.currency{
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
+.global-currency-value{
   color: #2959CE;
+  font-weight: bold;
+font-size: 16px;
+line-height: 19px;
 }
-.main-link{
+.global-currency-item:not(:last-child){
+  margin-right: 25px;
+}
+
+.search-form{
+  border-radius:
+}
+.search-form-input{
+border: 0px;
+display: flex;
+}
+.lang-toggle{
+  margin-right: 25px;
+  display: flex;
+  padding: 3px;
+  border-radius: 39px;
+  background-color: #DCE6FF;
+  font-size: 13px;
+}
+.lang-toggle-link{
+  font-size: 13px;
   text-decoration: none;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+.lang-toggle-link-active{
+  background-color: #fff;
+  color: #000;
+}
+.site-header-button{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
   padding: 13px 20px;
+  text-decoration: none;
+text-align: center;
 background-color: #7296EC;
- border-radius: 10px;
+border-radius: 10px;
+cursor: pointer;
+color: #fff;
+}
+.site-header-button:hover{
+  opacity: 0.8;
+}
+.site-header-button:active{
+  opacity: 0.6;
 }
