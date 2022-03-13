@@ -115,6 +115,7 @@ margin-right: 25px;
   line-height: 30px;
   border-radius: 50%;
   text-align: center;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .lang-toggle-link-active{
   background-color: #fff;
@@ -138,6 +139,7 @@ margin-right: 25px;
   border-radius: 10px;
   cursor: pointer;
   color: #fff;
+  transition: opacity 0.4s ease;
 }
 .site-header-button:hover{
   opacity: 0.8;
@@ -175,6 +177,7 @@ margin-right: 25px;
   display: block;
   text-decoration: none;
   color: #7F7F7F;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .sitenav-link:hover{
   color: #7297EF;
@@ -186,6 +189,7 @@ margin-right: 25px;
 .banner-link{
   display: flex;
   margin-bottom: 50px;
+  transition:  opacity 0.4s ease;
 }
 .banner-link:hover{
   opacity: 0.8;
@@ -239,6 +243,7 @@ margin-right: 25px;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .top-news-item-title-link:hover{
   color: #7296EC;
@@ -318,6 +323,7 @@ padding: 13px 30px;
 border-radius: 10px;
 background-color: #F78B3B;
 color: #fff;
+transition: color 0.4s ease, opacity 0.4s ease;
 }
 .notifications-button-link:hover{
   background-color: #dda171;
@@ -366,8 +372,7 @@ color: #fff;
   margin-right: 15px;
   border-radius: 10px;
 }
-.article-card-horizontal-content {
-}
+
 .article-card-horizontal-title {
   display: block;
   margin-top: 0;
@@ -380,6 +385,7 @@ color: #fff;
   text-decoration: none;
   font-size: 20px;
   line-height: 26px;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .article-card-horizontal-link:hover{
   color: #7297EF;
@@ -426,6 +432,7 @@ color: #fff;
   font-size: 16px;
   line-height: 19px;
   color: #000;
+  transition:  color 0.4s ease, opacity 0.4s ease;
 }
 .global-news-bottom-link:hover{
   color: #7297EF;
@@ -436,8 +443,6 @@ color: #fff;
 
 /* GLOBAL-NEWS-RIGHT */
 
-.global-news-right {
-}
 .global-news-right-top {
   width: 393px;
   padding-top: 20PX;
@@ -471,6 +476,7 @@ color: #fff;
 .global-news-right-top-content-title-link {
   text-decoration: none;
   color: #000000;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .global-news-right-top-content-title-link:hover{
   color: #7297EF;
@@ -541,6 +547,7 @@ margin-bottom: 20px;
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .footer-list-item-link:hover{
   color: #000;
@@ -559,6 +566,7 @@ margin-bottom: 20px;
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .footer-content-inner-list-link:hover{
   color: #000;
@@ -604,6 +612,7 @@ margin-bottom: 20px;
 }
 .socials-list-item-link{
   display: flex;
+  transition: color 0.4s ease, opacity 0.4s ease;
 }
 .socials-list-item-link:hover{
 opacity: 0.8;
