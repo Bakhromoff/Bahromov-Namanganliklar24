@@ -98,6 +98,7 @@ margin-right: 25px;
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
+  content: "";
 }
 .lang-toggle{
   margin-right: 25px;
