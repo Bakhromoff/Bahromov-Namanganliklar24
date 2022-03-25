@@ -24,6 +24,9 @@
   font-style: normal;
   font-display: swap;
 }
+:root{
+
+}
 
 html {
   height: 100%;
@@ -181,7 +184,7 @@ margin-right: 25px;
 }
 /* SITE-NAV */
 .sitenav {
-  font-family: Rubik, Arial, sans-serif;
+  font-family: "Rubik", "Arial", sans-serif;
   padding-top: 30px;
   padding-bottom: 20px;
   font-weight: 500;
