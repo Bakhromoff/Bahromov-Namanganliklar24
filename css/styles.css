@@ -112,10 +112,10 @@ line-height: 19px;
 margin-right: 25px;
 }
 .search-form-input{
+  width: 275px;
+  min-height: 45px;
+  padding: 0;
   padding-left: 40px;
-  padding-top: 13px;
-  padding-bottom: 15px;
-  padding-right: 20px;
   border-radius: 60px;
   border: 0;
   font-size: 14px;
@@ -706,5 +706,153 @@ opacity: 0.8;
   border-radius: 15px;
 }
 
-
 /* CONTACT */
+
+.contact-main-content{
+  display: flex;
+  align-items: flex-start;
+}
+
+  /* LEFT SIDE */
+  .left-side{
+    width: 696px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+  }
+
+  .left-side-content{
+    display: block;
+  }
+  .contact-heading {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .contact-form{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+  .main-information {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .main-information-input {
+    width: 343px;
+    min-height: 55px;
+    padding: 0;
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .main-information-input:not(:last-child){
+    margin-right: 10px;
+  }
+
+  .email-input{
+    width: 696px;
+    min-height: 55px;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  textarea{
+    width: 696px;
+    min-height: 180px;
+    display: block;
+    resize: horizontal;
+
+  }
+  .contact-textarea{
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  .contact-button{
+    margin-left: 551px;
+    padding: 17px 30px;
+    background: #7297EF;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: opacity 0.4s ease;
+  }
+  .contact-button:hover{
+    opacity: 0.8;
+  }
+  .contact-button:active{
+    opacity: 0.6;
+  }
+  /* RIGHT SIDE */
+  .right-side {
+    width: 494px;
+    margin-top: 45px;
+  }
+  .right-side-content {
+    display: block;
+    padding: 40px 25px;
+    background: #F6F6F6;
+    border-radius: 10px;
+  }
+  .right-side-content-item{
+    width: 444px;
+  }
+  .right-side-content-item:not(:last-child){
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+  }
+
+  .right-side-content-item-title {
+    margin: 0;
+    margin-bottom: 7px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+  }
+  .contacts {
+    display: inline-block;
+    margin: 0;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .email-link {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.4s ease, opacity 0.4s ease;
+  }
+  .email-link:hover{
+    color: #7296EC;
+  }
+  .email-link:active{
+    opacity: 0.6;
+  }
+
+  @media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+.notifications{
+  background-image: url(../img/Group35@2x.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
